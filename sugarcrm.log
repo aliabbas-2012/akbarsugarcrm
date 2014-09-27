@@ -10,3 +10,185 @@
 09/27/14 02:58:27 [5044][-none-][FATAL]  Get One Failed:SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '': Database Is Not Connected
 09/27/14 02:58:27 [5044][-none-][FATAL]  Query Failed: SELECT version() version LIMIT 0,1: Database Is Not Connected
 09/27/14 02:58:27 [5044][-none-][FATAL]  Get One Failed:SELECT version() version: Database Is Not Connected
+09/27/14 08:47:07 [6120][1][FATAL] SMTP -> ERROR:AUTH not accepted from server. Code: 530 Reply: 530 5.7.0 Must issue a STARTTLS command first. x5sm2819412lad.30 - gsmtp
+
+09/27/14 08:47:08 [6120][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: do_not_reply@test.com
+09/27/14 09:58:37 [6120][-none-][FATAL] FAILED LOGIN:attempts[1] - admin
+09/27/14 14:19:22 [6120][1][FATAL] SMTP -> ERROR:Password not accepted from server. Code: 535 Reply: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8 http://support.google.com/mail/bin/answer.py?answer=14257 sd10sm1803660lbb.8 - gsmtp
+ 
+09/27/14 14:19:23 [6120][1][FATAL] SugarPHPMailer encountered an error: The following From address failed: do_not_reply@example.com
+09/27/14 14:51:38 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 0
+    [in_queue_date] => 2014-09-27 12:46:23
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 14:54:07 [6120][1][FATAL]  Query Failed:  SELECT * FROM emailman WHERE send_date_time <= '2014-09-27 12:54:05' AND (in_queue ='0' OR in_queue IS NULL OR ( in_queue ='1'  ) ORDER BY send_date_time ASC,user_id, list_id LIMIT 0,500: MySQL error 1064: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ORDER BY send_date_time ASC,user_id, list_id LIMIT 0,500' at line 1
+09/27/14 14:56:09 [6120][1][FATAL] Error acquiring lock for the emailman entry, skipping email delivery. lock status=0 Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 14:57:42 [6120][1][FATAL] Error acquiring lock for the emailman entry, skipping email delivery. lock status=0 Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 14:58:09 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 15:06:26 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 15:09:13 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 15:09:59 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 1
+    [in_queue_date] => 2014-09-27 12:51:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 15:14:59 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 2014-09-27 00:00:00
+    [date_modified] => 2014-09-27 00:00:00
+    [user_id] => 1
+    [id] => 1
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 1
+    [in_queue] => 0
+    [in_queue_date] => 2014-09-27 13:15:36
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 
+    [related_type] => 
+)
+
+09/27/14 15:15:13 [6120][1][FATAL] Email Address provided is not Primary Address for email with id ' Emailman id=1
+09/27/14 15:21:43 [6120][1][FATAL] Email Address provided is not Primary Address for email with id ' Emailman id=2
+09/27/14 16:06:36 [6120][1][FATAL] Email delivery FAILURE:Array
+(
+    [date_entered] => 
+    [date_modified] => 
+    [user_id] => 1
+    [id] => 2
+    [campaign_id] => b2859a83-10b7-05ee-b201-542611aeae07
+    [marketing_id] => cdccc6e6-c1ec-e878-b9f4-5426124e6807
+    [list_id] => 89e54bb2-7eca-437a-6ab0-54261196c355
+    [send_date_time] => 2014-09-27 00:00:00
+    [modified_user_id] => 
+    [in_queue] => 0
+    [in_queue_date] => 
+    [send_attempts] => 0
+    [deleted] => 0
+    [related_id] => 1d1b3425-09c9-ed1d-0089-54260c045fb7
+    [related_type] => Account
+)
+
