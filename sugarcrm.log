@@ -1,0 +1,12 @@
+09/27/14 02:57:54 [5044][-none-][FATAL] Could not connect to DB server localhost as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+09/27/14 02:57:54 [5044][-none-][FATAL] Could Not Connect: Database Is Not Connected
+09/27/14 02:57:54 [5044][-none-][FATAL]  Query Failed: SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '' LIMIT 0,1: Database Is Not Connected
+09/27/14 02:57:54 [5044][-none-][FATAL]  Get One Failed:SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '': Database Is Not Connected
+09/27/14 02:57:54 [5044][-none-][FATAL]  Query Failed: SELECT version() version LIMIT 0,1: Database Is Not Connected
+09/27/14 02:57:54 [5044][-none-][FATAL]  Get One Failed:SELECT version() version: Database Is Not Connected
+09/27/14 02:58:27 [5044][-none-][FATAL] Could not connect to DB server localhost as root. port : Access denied for user 'root'@'localhost' (using password: YES)
+09/27/14 02:58:27 [5044][-none-][FATAL] Could Not Connect: Database Is Not Connected
+09/27/14 02:58:27 [5044][-none-][FATAL]  Query Failed: SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '' LIMIT 0,1: Database Is Not Connected
+09/27/14 02:58:27 [5044][-none-][FATAL]  Get One Failed:SELECT SCHEMA_NAME FROM INFORMATION_SCHEMA.SCHEMATA WHERE SCHEMA_NAME = '': Database Is Not Connected
+09/27/14 02:58:27 [5044][-none-][FATAL]  Query Failed: SELECT version() version LIMIT 0,1: Database Is Not Connected
+09/27/14 02:58:27 [5044][-none-][FATAL]  Get One Failed:SELECT version() version: Database Is Not Connected
